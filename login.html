@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Login - SQL Injection Demo</title>
+	<!-- Link to external CSS file for styling -->
+	<link rel="stylesheet" type="style.css">
+</head>
+<body>
+	<header>
+		<h1>Welcome! Please Login From Here</h1>
+	</header>
+	<main>
+		<!-- Login form -->
+		<form method="post" action="vulnerable-login.php">
+			<!-- Username input field -->
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required><br>
+			<label for="password">Password:</label>
+			<!-- Password input field -->
+			<input type="password" id="password" name="password" required><br>
+			<!-- Submit button -->
+			<button type="Submit">Login</button>
+		</form>
+	</main>
+</body>
+</html>
+
+
+<!--
+	HTML Document Structure: The <!DOCTYPE html> declaration defines the document as HTML5. The <html> tag is the root of the HTML document.
+	
+	Head Section: Contains meta-information about the document:
+		***<meta charset="UTF-8"> sets the character encoding to UTF-8.
+		***<title> sets the title of the webpage.
+		***<link rel="stylesheet" href="styles.css"> links to an external CSS file for styling.
+	
+	Body Section: Contains the content of the document:
+		***Header: Contains the main heading (<h1>).
+		***Main Content: The main section (<main>) contains the login form (<form>):
+		***Form Element: The form uses the POST method to submit data to vulnerable-login.php.
+		***Username Input Field: A text input (<input>) for the username, labeled with <label>.
+		***Password Input Field: A password input (<input>) for the password, labeled with <label>.
+		***Submit Button: A button (<button>) to submit the form.
+-->
