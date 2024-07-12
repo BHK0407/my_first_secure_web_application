@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Login - SQL Injection Demo</title>
+	<!-- Link to external CSS file for styling -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Login</h1>
+	</header>
+	<main>
+		<!-- Login form -->
+		<form method="post" action="secure-login.php">
+			<!-- Username input field -->
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+			<!-- Password input field -->
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+			<!-- Submit button -->
+			<button type="submit">Login</button>
+		</form>
+	</main>
+</body>
+</html>
