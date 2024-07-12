@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Data Transmission - HTTPS</title>
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Secure Data Transmission</h1>
+    </header>
+    <main>
+        <section>
+            <h2>What is HTTPS?</h2>
+            <p>HTTPS (HyperText Transfer Protocol Secure) is an extension of HTTP. It uses SSL/TLS to encrypt data between the client and server, ensuring data integrity and confidentiality.</p>
+        </section>
+        <section>
+            <h2>Benefits of HTTPS</h2>
+            <ul>
+                <li>Encrypts data to protect it from eavesdroppers</li>
+                <li>Ensures data integrity by preventing tampering</li>
+                <li>Provides authentication, ensuring the server you're communicating with is legitimate</li>
+                <li>Improves SEO rankings</li>
+                <li>Builds trust with users</li>
+            </ul>
+        </section>
+        <section>
+            <h2>How SSL/TLS Works</h2>
+            <p>SSL/TLS establishes a secure connection through a process called the SSL/TLS handshake, which involves:</p>
+            <ol>
+                <li>Client sends a request to the server for a secure connection.</li>
+                <li>Server responds with its SSL certificate, which includes the server's public key.</li>
+                <li>Client verifies the certificate's authenticity using the CA's public key.</li>
+                <li>If verified, client and server generate a session key to encrypt subsequent data.</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Implementing HTTPS</h2>
+            <p>To implement HTTPS on your web server, you need to:</p>
+            <ol>
+                <li>Obtain an SSL certificate from a trusted Certificate Authority (CA).</li>
+                <li>Install the SSL certificate on your web server.</li>
+                <li>Configure your web server to use HTTPS.</li>
+            </ol>
+            <p>For detailed instructions, refer to the documentation of your web server (e.g., Apache, Nginx).</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cybersecurity Web Application</p>
+    </footer>
+</body>
+</html>
